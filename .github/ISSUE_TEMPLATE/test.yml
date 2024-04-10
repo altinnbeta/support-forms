@@ -29,18 +29,14 @@ body:
     validations:
       required: true
   - type: textarea
-    id: epics
+    id: tasks
     attributes:
       label: Gjennomføring
       description: Task lists for Avhengigheter og Oppgaver
       value: |
-        ```[tasklist]
-        ### Avhengigheter
-        - [ ] ...
-        ```
-        ```[tasklist]
-        ### Oppgaver
-        - [ ] ...
-        ```
+          ```[tasklist]
+          ### Avhengigheter
+          - [ ] Pek på en epic i produktets backlog
+          ```
     validations:
       required: false
